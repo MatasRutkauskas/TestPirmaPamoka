@@ -1,0 +1,19 @@
+﻿Build started 2018-01-13 13:58:27.
+     1>Project "Z:\Laidininkai\Kontrolinis7\Kontrolinis7.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Singleton.cpp Source.cpp
+         Source.cpp
+     1>z:\laidininkai\kontrolinis7\singleton.h(10): error C2061: syntax error : identifier 'ofstream'
+     1>z:\laidininkai\kontrolinis7\source.cpp(28): error C2660: 'Singleton::Spausdinti' : function does not take 4 arguments
+     1>z:\laidininkai\kontrolinis7\source.cpp(32): error C2660: 'Singleton::Spausdinti' : function does not take 4 arguments
+         Singleton.cpp
+     1>z:\laidininkai\kontrolinis7\singleton.h(10): error C2061: syntax error : identifier 'ofstream'
+     1>z:\laidininkai\kontrolinis7\singleton.cpp(39): warning C4018: '<' : signed/unsigned mismatch
+     1>z:\laidininkai\kontrolinis7\singleton.cpp(76): error C2511: 'void Singleton::Spausdinti(char [],std::ofstream &,int [],char [])' : overloaded member function not found in 'Singleton'
+                 z:\laidininkai\kontrolinis7\singleton.h(4) : see declaration of 'Singleton'
+         Generating Code...
+     1>Done Building Project "Z:\Laidininkai\Kontrolinis7\Kontrolinis7.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.21
